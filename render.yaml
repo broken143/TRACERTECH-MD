@@ -1,0 +1,15 @@
+services:
+ - type: worker
+   name: tracertech-md-demo
+   env: docker
+   plan: free
+   dockerfilePath: ./Dockerfile
+   envVars:
+    - key: SESSION_ID
+      value: Session~
+    - key: BOT_INFO
+      value: ４ｐＦ๛Trappy;𝚃𝚁𝙰𝙲𝙴𝚁𝚃𝙴𝙲𝙷-𝙼𝙳
+    - key: SUDO
+      value: 254727472670
+    - key: ANTILINK
+      value: "true"

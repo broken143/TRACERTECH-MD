@@ -1,0 +1,59 @@
+{
+    "name": "𝚃𝚁𝙰𝙲𝙴𝚁𝚃𝙴𝙲𝙷-𝙼𝙳⚡️",
+    "logo": "https://i.ibb.co/s2wCJ0p/AddText.png",
+    "success_url": "/",
+    "stack": "container",
+    "env": {
+        "SESSION_ID": {
+            "description": "SESSION ID FOR BOT",
+            "required": true,
+            "value": "Session~"
+        },
+        "BOT_INFO": {
+            "description": "BOT INFO",
+            "required": true,
+            "value": "４ｐＦ๛Trappy;𝚃𝚁𝙰𝙲𝙴𝚁𝚃𝙴𝙲𝙷-𝙼𝙳;https://i.ibb.co/s2wCJ0p/AddText.png"
+        },
+        "SUDO": {
+            "description": "SUDO NUMBERS",
+            "required": true,
+            "value": "254727472670"
+        },
+        "AUTHOR": {
+            "description": "STICKER AUTHOR",
+            "required": false,
+            "value": "４ｐＦ๛Trappy"
+        },
+        "PACKNAME": {
+            "description": "STICKER PACKNAME",
+            "required": false,
+            "value": "４ｐＦ๛Trappy⚡️"
+        },
+        "AUTO_READ": {
+            "description": "AUTO READ MSGS",
+            "required": false,
+            "value": "false"
+        },
+        "RMBG_KEY": {
+            "description": "REMOVE BG KEY",
+            "required": false,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "SAME AS ABOVE",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_API_KEY": {
+            "description": "USED FOR HEROKU VARS",
+            "required": true,
+            "value": ""
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
+    }
+}
